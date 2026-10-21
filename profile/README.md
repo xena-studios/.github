@@ -22,4 +22,4 @@ Raptor turns any Linux box into a reliable game server host. Run one install com
 
 ## Contact
 
-[contact@xenastudios.co](mailto:contact@xenastudios.co)
+[xenastudios.co](https://xenastudios.co) · [contact@xenastudios.co](mailto:contact@xenastudios.co)
