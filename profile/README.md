@@ -37,13 +37,13 @@ Coming soon.
 
 Small, focused plugins for Paper servers. Each one does one job, costs next to nothing to run, and lets you switch off anything you don't use.
 
-| | Plugin | |
-|---|---|---|
-| <img src="assets/xutilities-icon.png" width="40" alt=""> | **[xUtilities](https://modrinth.com/plugin/xutilities)** | Every command you need. None you don't. Gamemodes, fly, heal, `/back`, workstations and your own link commands, each one toggleable. Paper and Folia. |
-| <img src="assets/zchat-icon.png" width="40" alt=""> | **[zChat](https://modrinth.com/plugin/zchat)** | Format your chat. Keep it clean. Group-based formatting with a filter, cooldown and chat mute, rendered once per message. Paper and Folia. |
-| <img src="assets/xlimbo-icon.png" width="40" alt=""> | **[xLimbo](https://modrinth.com/plugin/xlimbo)** | Never drop a player again. A fallback server: when the main server goes down, players wait in a safe void world instead of being kicked. Paper. |
+| | Plugin | | |
+|---|---|---|---|
+| <img src="assets/xutilities-icon.png" width="40" alt=""> | **xUtilities** | Every command you need. None you don't. Gamemodes, fly, heal, `/back`, workstations and your own link commands, each one toggleable. Paper and Folia. | [Docs](https://docs.xenastudios.co/xutilities/) · [Modrinth](https://modrinth.com/plugin/xutilities) |
+| <img src="assets/zchat-icon.png" width="40" alt=""> | **zChat** | Format your chat. Keep it clean. Group-based formatting with a filter, cooldown and chat mute, rendered once per message. Paper and Folia. | [Docs](https://docs.xenastudios.co/zchat/) · [Modrinth](https://modrinth.com/plugin/zchat) |
+| <img src="assets/xlimbo-icon.png" width="40" alt=""> | **xLimbo** | Never drop a player again. A fallback server: when the main server goes down, players wait in a safe void world instead of being kicked. Paper. | [Docs](https://docs.xenastudios.co/xlimbo/) · [Modrinth](https://modrinth.com/plugin/xlimbo) |
 
-All on [Modrinth](https://modrinth.com/organization/xena-studios) · GPL-3.0
+[Docs](https://docs.xenastudios.co) · [Modrinth](https://modrinth.com/organization/xena-studios) · [Source](https://github.com/xena-studios/plugins) · GPL-3.0
 
 ## Contact
 
