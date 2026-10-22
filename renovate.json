@@ -1,0 +1,5 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "This repo has no dependencies; it only holds the shared settings in renovate-config.json.",
+  "enabled": false
+}
