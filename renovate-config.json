@@ -1,0 +1,8 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Xena Studios' shared Renovate settings. A repo uses them with \"extends\": [\"local>xena-studios/.github:renovate-config\"] and adds its own rules, such as automerge where CI covers everything a merge changes.",
+  "extends": ["config:recommended", "group:allNonMajor"],
+  "schedule": ["before 6am on monday"],
+  "labels": ["dependencies"],
+  "postUpdateOptions": ["gomodTidy"]
+}
