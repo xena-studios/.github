@@ -1,5 +1,5 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "This repo has no dependencies; it only holds the shared settings in renovate-config.json.",
-  "enabled": false
+  "description": "Keeps this repo's workflow actions current. The shared settings every repo extends are in renovate-config.json.",
+  "extends": ["local>xena-studios/.github:renovate-config"]
 }

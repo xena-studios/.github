@@ -1,0 +1,24 @@
+name: Check
+
+# Every repo in the org extends renovate-config.json, so a mistake in it stops
+# Renovate everywhere, and quietly: validate it, and this repo's renovate.json,
+# on every pull request. main requires this check.
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-26.04
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      # The newest Renovate, as the hosted app runs. No secrets reach this job.
+      - name: Validate the Renovate configs
+        run: npx --yes --package renovate -- renovate-config-validator --strict --no-global renovate-config.json renovate.json
