@@ -13,7 +13,7 @@ The banner above is `github/dotgithub-banner.png` from the brand repo.
 
 ## Changes
 
-`main` takes changes only through pull requests, and the `check` job has to pass. Commit messages follow [Conventional Commits](https://www.conventionalcommits.org) (`docs:`, `build:`, `ci:`). The profile's images come from the brand repo: change them there, then copy them in.
+`main` takes changes only through pull requests, and the `check` job has to pass. The pull request template lists what a change here affects across the org. Commit messages follow [Conventional Commits](https://www.conventionalcommits.org) (`docs:`, `build:`, `ci:`). The profile's images come from the brand repo: change them there, then copy them in.
 
 ## Licence
 
