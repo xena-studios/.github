@@ -1,6 +1,6 @@
 ![Xena Studios. Game server infrastructure, built in the open.](assets/header.png)
 
-We build infrastructure for running game servers on your own hardware, and the Minecraft plugins that run on them. All of it in the open.
+We build infrastructure for running game servers on your own hardware, the Minecraft plugins that run on them, and a Minecraft server of our own. All of it in the open.
 
 ## Raptor
 
@@ -34,6 +34,18 @@ NeoSkript is a fast, modern drop-in replacement for Skript. Your `.sk` scripts r
 In development, not released yet.
 
 [Source](https://github.com/xena-studios/neoskript) · GPL-3.0-or-later
+
+## MostWanted
+
+<img src="assets/mostwanted-logo.png" alt="MostWanted" height="48">
+
+**Cops vs. prisoners on Java & Bedrock.**
+
+MostWanted is our own Jailbreak-style Minecraft server. Prisoners break out and rob the town; guards, picked by application, bring them back. One world that keeps running, built on Raptor and our plugins.
+
+In development, not open yet.
+
+[Source](https://github.com/xena-studios/mostwanted) · GPL-3.0-only
 
 ## Plugins
 
