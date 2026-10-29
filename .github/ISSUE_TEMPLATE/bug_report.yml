@@ -1,0 +1,43 @@
+name: Bug report
+description: Something doesn't work as the README or docs say it should.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. For a security problem, don't use this form: see the [security policy](https://github.com/xena-studios/.github/blob/main/SECURITY.md).
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: The release you're running, or the commit you built from.
+      placeholder: "v1.2.0, or 1a2b3c4"
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Where it runs
+      description: Your OS, server software, Java or Node version, whatever applies.
+      placeholder: "Paper 26.3 build 214, Java 25"
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The shortest way to make it happen, if you know one.
+      placeholder: |
+        1. ...
+        2. ...
+  - type: textarea
+    id: errors
+    attributes:
+      label: Errors and logs
+      description: Paste the whole error, not just the first line. Remove anything private, such as addresses and passwords.
+      render: text
