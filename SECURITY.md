@@ -1,6 +1,6 @@
 # Security policy
 
-This is the security policy for every [Xena Studios](https://github.com/xena-studios) repository that doesn't have its own. [Raptor](https://github.com/xena-studios/raptor/blob/main/SECURITY.md) and the [plugins](https://github.com/xena-studios/plugins/blob/main/SECURITY.md) have their own; follow theirs for those.
+This is the security policy for every [Xena Studios](https://github.com/xena-studios) repository that doesn't have its own. [Raptor](https://github.com/xena-studios/raptor/blob/main/SECURITY.md), the [plugins](https://github.com/xena-studios/plugins/blob/main/SECURITY.md) and [MostWanted](https://github.com/xena-studios/mostwanted/blob/main/SECURITY.md) have their own; follow theirs for those.
 
 ## Reporting a vulnerability
 
@@ -26,6 +26,7 @@ Fixes go into the newest release, or `main` for a project without releases.
 |---|---|
 | [raptor](https://github.com/xena-studios/raptor) | Its own policy: [SECURITY.md](https://github.com/xena-studios/raptor/blob/main/SECURITY.md), reports to security@raptorpanel.net |
 | [plugins](https://github.com/xena-studios/plugins) | Its own policy: [SECURITY.md](https://github.com/xena-studios/plugins/blob/main/SECURITY.md), which also covers [docs.xenastudios.co](https://docs.xenastudios.co) |
+| [mostwanted](https://github.com/xena-studios/mostwanted) | Its own policy: [SECURITY.md](https://github.com/xena-studios/mostwanted/blob/main/SECURITY.md) |
 | [neoskript](https://github.com/xena-studios/neoskript) | NeoSkript: the plugin, its compiler and runtime, and the CLI |
 | [website](https://github.com/xena-studios/website) | [xenastudios.co](https://xenastudios.co): its pages, headers and redirects |
 | [brand](https://github.com/xena-studios/brand) | The scripts that build and sync the brand assets |
