@@ -41,7 +41,7 @@ In development, not released yet.
 
 **Cops vs. prisoners on Java & Bedrock.**
 
-MostWanted is our own Jailbreak-style Minecraft server. Prisoners break out and rob the town; guards, picked by application, bring them back. One world that keeps running, built on Raptor and our plugins.
+MostWanted is our own Jailbreak-style Minecraft server. Prisoners break out and rob the town; guards, picked by application, bring them back. One world that keeps running, on our own plugins.
 
 In development, not open yet.
 

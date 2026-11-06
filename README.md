@@ -7,13 +7,13 @@ This repository holds the [Xena Studios](https://xenastudios.co) organisation pr
 - [`profile/README.md`](profile/README.md): the profile page.
 - [`profile/assets/`](profile/assets): its header, product logos and plugin icons, generated in [xena-studios/brand](https://github.com/xena-studios/brand), not drawn here.
 - [`renovate-config.json`](renovate-config.json): the Renovate settings every repository extends. [`check.yml`](.github/workflows/check.yml) validates it on every pull request, since a mistake in it would stop Renovate across the org.
-- The default community files, which GitHub uses in every repository that doesn't have its own: [`SECURITY.md`](SECURITY.md), [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) (Contributor Covenant 2.1), [`CONTRIBUTING.md`](CONTRIBUTING.md) and [`SUPPORT.md`](SUPPORT.md).
+- The default community files, which GitHub uses in every repository that doesn't have its own: [`SECURITY.md`](SECURITY.md), [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) (Contributor Covenant 2.1), [`CONTRIBUTING.md`](CONTRIBUTING.md), [`SUPPORT.md`](SUPPORT.md), the [issue forms](.github/ISSUE_TEMPLATE) and the [pull request template](.github/pull_request_template.md).
 
 The banner above is `github/dotgithub-banner.png` from the brand repo.
 
 ## Changes
 
-`main` takes changes only through pull requests, and the `check` job has to pass. The pull request template lists what a change here affects across the org. Commit messages follow [Conventional Commits](https://www.conventionalcommits.org) (`docs:`, `build:`, `ci:`). The profile's images come from the brand repo: change them there, then copy them in.
+`main` takes changes only through pull requests, and the `check` job has to pass. The pull request template is also every other repo's default, so the checks for this repo are in a comment at its end: what a change here affects across the org. Commit messages follow [Conventional Commits](https://www.conventionalcommits.org) (`docs:`, `build:`, `ci:`). The profile's images come from the brand repo: change them there, then copy them in.
 
 ## Licence
 
