@@ -2,19 +2,21 @@
 
 **Game server infrastructure, built in the open.**
 
-This repository holds the [Xena Studios](https://xenastudios.co) organisation profile shown at [github.com/xena-studios](https://github.com/xena-studios).
+The [Xena Studios](https://xenastudios.co) organisation profile, and the defaults every repo shares.
 
-- [`profile/README.md`](profile/README.md): the profile page.
-- [`profile/assets/`](profile/assets): its header, product logos and plugin icons, generated in [xena-studios/brand](https://github.com/xena-studios/brand), not drawn here.
-- [`renovate-config.json`](renovate-config.json): the Renovate settings every repository extends. [`check.yml`](.github/workflows/check.yml) validates it on every pull request, since a mistake in it would stop Renovate across the org.
-- The default community files, which GitHub uses in every repository that doesn't have its own: [`SECURITY.md`](SECURITY.md), [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) (Contributor Covenant 2.1), [`CONTRIBUTING.md`](CONTRIBUTING.md), [`SUPPORT.md`](SUPPORT.md), the [issue forms](.github/ISSUE_TEMPLATE) and the [pull request template](.github/pull_request_template.md).
+| File | What it is |
+|---|---|
+| [`profile/README.md`](profile/README.md) | The profile shown at [github.com/xena-studios](https://github.com/xena-studios) |
+| [`renovate-config.json`](renovate-config.json) | Renovate settings every repo extends |
+| [`SECURITY.md`](SECURITY.md), [`CONTRIBUTING.md`](CONTRIBUTING.md), [`SUPPORT.md`](SUPPORT.md), [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Community files for every repo without its own |
+| [Issue forms](.github/ISSUE_TEMPLATE), [PR template](.github/pull_request_template.md) | The same, for issues and pull requests |
 
-The banner above is `github/dotgithub-banner.png` from the brand repo.
+## Making changes
 
-## Changes
-
-`main` takes changes only through pull requests, and the `check` job has to pass. The pull request template is also every other repo's default, so the checks for this repo are in a comment at its end: what a change here affects across the org. Commit messages follow [Conventional Commits](https://www.conventionalcommits.org) (`docs:`, `build:`, `ci:`). The profile's images come from the brand repo: change them there, then copy them in.
+- Changes go through pull requests, and the `check` job has to pass. It validates the Renovate configs, since a mistake there stops Renovate across the org.
+- Commits follow [Conventional Commits](https://www.conventionalcommits.org): `docs:`, `build:`, `ci:`.
+- Images (the banner and everything in `profile/assets/`) are made in [xena-studios/brand](https://github.com/xena-studios/brand). Change them there, then copy them in.
 
 ## Licence
 
-The profile, its images and the banner are © Xena Studios, all rights reserved. [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) is the [Contributor Covenant](https://www.contributor-covenant.org) 2.1, under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+The profile and its images are © Xena Studios, all rights reserved. The code of conduct is the [Contributor Covenant](https://www.contributor-covenant.org) 2.1, under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
