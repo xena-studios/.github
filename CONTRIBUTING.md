@@ -6,7 +6,7 @@ Everyone follows the [code of conduct](https://github.com/xena-studios/.github/b
 
 ## Issues
 
-Check the issue isn't already open, then use the form. For a bug, include the version or commit, what you did, what you expected and any errors. For questions, email [contact@xenastudios.co](mailto:contact@xenastudios.co).
+Check the issue isn't already open, then use the form. For a bug, include the version or commit, what you did, what you expected and any errors. For questions, see [getting help](https://github.com/xena-studios/.github/blob/main/SUPPORT.md).
 
 ## Pull requests
 

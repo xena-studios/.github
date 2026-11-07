@@ -49,7 +49,3 @@ Small plugins for Paper servers. Each does one job, costs next to nothing to run
 | <img src="assets/xlimbo-icon.png" width="40" alt=""> | **xLimbo** | Never drop a player again. | [Docs](https://docs.xenastudios.co/xlimbo/) · [Modrinth](https://modrinth.com/plugin/xlimbo) |
 
 [Docs](https://docs.xenastudios.co) · [Modrinth](https://modrinth.com/organization/xena-studios) · [Source](https://github.com/xena-studios/plugins) · GPL-3.0-only
-
-## Contact
-
-[xenastudios.co](https://xenastudios.co) · [contact@xenastudios.co](mailto:contact@xenastudios.co)
