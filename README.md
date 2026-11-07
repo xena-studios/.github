@@ -15,7 +15,9 @@ The [Xena Studios](https://xenastudios.co) organisation profile, and the default
 
 - Changes go through pull requests, and the `check` job has to pass. It validates the Renovate configs, since a mistake there stops Renovate across the org.
 - Commits follow [Conventional Commits](https://www.conventionalcommits.org): `docs:`, `build:`, `ci:`.
-- Images (the banner and everything in `profile/assets/`) are made in [xena-studios/brand](https://github.com/xena-studios/brand). Change them there, then copy them in.
+- `renovate-config.json` is extended by every repo, so check a change is safe for all of them.
+- The community files and issue forms are the defaults for every repo without its own, so they have to read right for each of them.
+- Images (the banner and everything in `profile/assets/`) are made in [xena-studios/brand](https://github.com/xena-studios/brand). Change them there, then copy them in. The profile copy follows [xenastudios.co](https://xenastudios.co).
 
 ## Licence
 
