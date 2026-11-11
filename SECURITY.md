@@ -7,7 +7,7 @@ This policy covers every Xena Studios repo without its own. [Raptor](https://git
 **Don't open a public issue.** Instead, either:
 
 - use **Security → Report a vulnerability** on the affected repo, or
-- email [contact@xenastudios.co](mailto:contact@xenastudios.co) with "Security" in the subject.
+- email [security@xenastudios.co](mailto:security@xenastudios.co).
 
 Include the repo, the version or commit, steps to reproduce, and the impact.
 
