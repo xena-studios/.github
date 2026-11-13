@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping out. This guide covers every Xena Studios repo without its own. [Raptor](https://github.com/xena-studios/raptor/blob/main/CONTRIBUTING.md), the [plugins](https://github.com/xena-studios/plugins/blob/main/CONTRIBUTING.md) and [MostWanted](https://github.com/xena-studios/mostwanted/blob/main/CONTRIBUTING.md) have their own.
+Thanks for helping out. This guide covers every Xena Studios repo without its own. [Raptor](https://github.com/xena-studios/raptor/blob/main/CONTRIBUTING.md) and the [plugins](https://github.com/xena-studios/plugins/blob/main/CONTRIBUTING.md) have their own. MostWanted and Airfields are private, team-only repos; players report problems at [mostwantedmc.com/support](https://mostwantedmc.com/support) and [airfieldsmc.com/support](https://airfieldsmc.com/support).
 
 Everyone follows the [code of conduct](https://github.com/xena-studios/.github/blob/main/CODE_OF_CONDUCT.md). Security problems go to the [security policy](https://github.com/xena-studios/.github/blob/main/SECURITY.md), never a public issue.
 
@@ -18,7 +18,7 @@ Commits follow [Conventional Commits](https://www.conventionalcommits.org): `fea
 
 ## Licences
 
-Your contribution is licensed under the repo's licence. Repos that are all rights reserved, like the website and brand, can't take outside pull requests: open an issue instead.
+Your contribution is licensed under the repo's licence. Repos that are all rights reserved, like the website and brand, can't take outside pull requests: open an issue instead. The `*-pack` repos are published by CI from private repos, so pull requests there would be overwritten.
 
 ## Dependencies
 
