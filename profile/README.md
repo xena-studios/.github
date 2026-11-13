@@ -35,7 +35,7 @@ Our own Minecraft servers, on Java and Bedrock. Both are in development.
 | | Server | | |
 |---|---|---|---|
 | <img src="assets/mostwanted-icon.png" width="40" alt=""> | **MostWanted** | Cops vs. prisoners on Java & Bedrock. | [Website](https://mostwantedmc.com) |
-| <img src="assets/airfields-icon.png" width="40" alt=""> | **Airfields** | Winter sky-mining PvP on Java & Bedrock. | [Website](https://airfieldsmc.com) |
+| <img src="assets/airfields-icon.png" width="40" alt=""> | **Airfields** | Sky-mining PvP on Java & Bedrock. | [Website](https://airfieldsmc.com) |
 
 ## Plugins
 
