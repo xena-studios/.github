@@ -30,7 +30,7 @@ Include the repo, the version or commit, steps to reproduce, and the impact.
 | [.github](https://github.com/xena-studios/.github) | The shared Renovate settings |
 | [mostwanted-pack](https://github.com/xena-studios/mostwanted-pack), [airfields-pack](https://github.com/xena-studios/airfields-pack) | The published resource packs |
 
-Out of scope: archived repos (such as AxVaults), problems in services we build on (GitHub, Cloudflare, Modrinth, Paper) unless we make them reachable, volume-only denial of service, scanner output without a demonstrated impact, and social engineering or physical attacks.
+Out of scope: archived repos, problems in services we build on (GitHub, Cloudflare, Modrinth, Paper) unless we make them reachable, volume-only denial of service, scanner output without a demonstrated impact, and social engineering or physical attacks.
 
 ## Safe harbour
 
