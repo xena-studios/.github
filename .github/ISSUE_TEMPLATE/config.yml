@@ -9,9 +9,12 @@ contact_links:
   - name: xUtilities, zChat or xLimbo
     url: https://github.com/xena-studios/plugins/issues/new/choose
     about: Bugs and ideas for the plugins go to their repository.
-  - name: MostWanted
-    url: https://github.com/xena-studios/mostwanted/issues/new/choose
-    about: Bugs and ideas for the server go to its own repository.
+  - name: Playing on MostWanted
+    url: https://mostwantedmc.com/support
+    about: Bugs, reports and store help for the server. Its repository is private.
+  - name: Playing on Airfields
+    url: https://airfieldsmc.com/support
+    about: Bugs, reports and store help for the server. Its repository is private.
   - name: Anything else
     url: https://xenastudios.co/#contact
     about: Questions, partnerships, press, or anything that isn't a bug or an idea.

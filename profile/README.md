@@ -1,6 +1,6 @@
 ![Xena Studios. Game server infrastructure, built in the open.](assets/header.png)
 
-We build tools for running game servers on your own hardware, the Minecraft plugins that run on them, and a Minecraft server of our own. All in the open.
+We build tools for running game servers on your own hardware, the Minecraft plugins that run on them, and Minecraft servers of our own. The tools and plugins are open source.
 
 ## Raptor
 
@@ -24,19 +24,18 @@ Everything you run Pterodactyl for, with the add-ons built in and no panel to ho
 
 **Keep your scripts. Lose the lag.**
 
-A fast, modern drop-in replacement for Skript. Your `.sk` scripts run unchanged, only faster, on Paper and Folia. In development.
+A fast, modern drop-in replacement for Skript. Your `.sk` scripts run unchanged, only faster, on Paper and Folia. In public beta.
 
-[Source](https://github.com/xena-studios/neoskript) · GPL-3.0-or-later
+[Website](https://neoskript.dev) · [Docs](https://neoskript.dev/docs) · [Modrinth](https://modrinth.com/plugin/neoskript) · [Source](https://github.com/xena-studios/neoskript) · GPL-3.0-only
 
-## MostWanted
+## Servers
 
-<img src="assets/mostwanted-logo.png" alt="MostWanted" height="48">
+Our own Minecraft servers, on Java and Bedrock. Both are in development.
 
-**Cops vs. prisoners on Java & Bedrock.**
-
-Our own Jailbreak-style Minecraft server. Prisoners break out and rob the town; guards bring them back. In development.
-
-[Source](https://github.com/xena-studios/mostwanted) · GPL-3.0-only
+| | Server | | |
+|---|---|---|---|
+| <img src="assets/mostwanted-icon.png" width="40" alt=""> | **MostWanted** | Cops vs. prisoners on Java & Bedrock. | [Website](https://mostwantedmc.com) |
+| <img src="assets/airfields-icon.png" width="40" alt=""> | **Airfields** | Sky-mining PvP on Java & Bedrock. | [Website](https://airfieldsmc.com) |
 
 ## Plugins
 
