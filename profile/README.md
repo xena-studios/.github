@@ -1,4 +1,4 @@
-![Xena Studios. Game server infrastructure, built in the open.](assets/header.png)
+![Xena Studios. Game servers, and the tools to run them.](assets/header.png)
 
 We build tools for running game servers on your own hardware, the Minecraft plugins that run on them, and Minecraft servers of our own. The tools and plugins are open source.
 

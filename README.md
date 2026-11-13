@@ -1,6 +1,6 @@
-![Xena Studios on GitHub. XENA STUDIOS and the title "Xena Studios" over the Ion Blue planet horizon, with "Game server infrastructure, built in the open."](.github/assets/banner.png)
+![Xena Studios on GitHub. XENA STUDIOS and the title "Xena Studios" over the Ion Blue planet horizon, with "Game servers, and the tools to run them."](.github/assets/banner.png)
 
-**Game server infrastructure, built in the open.**
+**Game servers, and the tools to run them.**
 
 The [Xena Studios](https://xenastudios.co) organisation profile, and the defaults every repo shares.
 
