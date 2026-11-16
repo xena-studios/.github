@@ -9,9 +9,9 @@ We build tools for running game servers on your own hardware, the Minecraft plug
   <img src="assets/raptor-logo-light.png" alt="Raptor" height="48">
 </picture>
 
-**Pterodactyl had a good run.**
+**Your machine. Every game.**
 
-Everything you run Pterodactyl for, with the add-ons built in and no panel to host. Run one install command on any Linux box, then manage your game servers, Discord bots and voice servers from the web. Pterodactyl and Pelican eggs work as they are.
+Run one install command on any Linux box you own or rent, then pick from 350+ games and apps and manage them from the web, with no panel to host. Plugins, mods, modpacks, the Steam Workshop, encrypted backups and databases are built in, and Pterodactyl eggs work as they are.
 
 [Website](https://raptorpanel.net) · [Docs](https://docs.raptorpanel.net) · [Source](https://github.com/xena-studios/raptor) · AGPL-3.0
 
