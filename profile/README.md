@@ -46,5 +46,6 @@ Small plugins for Paper servers. Each does one job, costs next to nothing to run
 | <img src="assets/xutilities-icon.png" width="40" alt=""> | **xUtilities** | Every command you need. None you don't. | [Docs](https://docs.xenastudios.co/xutilities/) · [Modrinth](https://modrinth.com/plugin/xutilities) |
 | <img src="assets/zchat-icon.png" width="40" alt=""> | **zChat** | Format your chat. Keep it clean. | [Docs](https://docs.xenastudios.co/zchat/) · [Modrinth](https://modrinth.com/plugin/zchat) |
 | <img src="assets/xlimbo-icon.png" width="40" alt=""> | **xLimbo** | Never drop a player again. | [Docs](https://docs.xenastudios.co/xlimbo/) · [Modrinth](https://modrinth.com/plugin/xlimbo) |
+| <img src="assets/xrewind-icon.png" width="40" alt=""> | **xRewind** | Every change, logged. Any of it, undone. | [Docs](https://docs.xenastudios.co/xrewind/) · [Modrinth](https://modrinth.com/plugin/xrewind) |
 
 [Docs](https://docs.xenastudios.co) · [Modrinth](https://modrinth.com/organization/xena-studios) · [Source](https://github.com/xena-studios/plugins) · GPL-3.0-only
