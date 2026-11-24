@@ -1,19 +1,29 @@
 name: Check
 
-# Every repo in the org extends renovate-config.json, so a mistake in it stops
-# Renovate everywhere, and quietly: validate it, and this repo's renovate.json,
-# on every pull request. main requires this check.
+# check: every repo in the org extends renovate-config.json, so a mistake in it stops
+# Renovate everywhere, and quietly. It validates that and this repo's renovate.json.
+# main requires it.
+#
+# links and profile: what this repo says has to stay true of things outside it (the
+# sites it links, the brand catalog, Modrinth), which change on their own. So they run
+# every Monday as well as on pull requests, and never block a merge. On Monday, a
+# failure opens an issue here (or comments on the open one).
 on:
   push:
     branches: [main]
   pull_request:
+  schedule:
+    - cron: "17 6 * * 1"
+  workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
   check:
+    if: github.event_name != 'schedule'
     runs-on: ubuntu-26.04
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
@@ -22,3 +32,45 @@ jobs:
       # The newest Renovate, as the hosted app runs. No secrets reach this job.
       - name: Validate the Renovate configs
         run: npx --yes --package renovate -- renovate-config-validator --strict --no-global renovate-config.json renovate.json
+
+  # Every link in the Markdown and the issue forms answers. Email addresses are only
+  # checked for their form.
+  links:
+    runs-on: ubuntu-26.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+      - uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
+        with:
+          args: >-
+            --no-progress --include-mail=false --max-retries 3
+            '**/*.md' '.github/**/*.md' '.github/ISSUE_TEMPLATE/*.yml'
+          fail: true
+
+  # The profile's plugin table matches the brand catalog and which Modrinth pages are public.
+  profile:
+    runs-on: ubuntu-26.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - run: node scripts/profile.ts --check
+
+  report:
+    needs: [links, profile]
+    if: failure() && github.event_name == 'schedule'
+    runs-on: ubuntu-26.04
+    permissions:
+      issues: write
+    steps:
+      - env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RUN: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          title="Weekly check: a link or the profile's plugin table is out of date"
+          open=$(gh issue list --state open --search "in:title \"$title\"" --json number --jq '.[0].number')
+          body="The Monday check failed: $RUN. Fix the link, or run \`node scripts/profile.ts\` and commit the table."
+          if [ -n "$open" ]; then gh issue comment "$open" --body "$body"; else gh issue create --title "$title" --body "$body"; fi
