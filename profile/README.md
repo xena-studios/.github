@@ -39,13 +39,24 @@ Our own Minecraft servers, on Java and Bedrock. Both are in development.
 
 ## Plugins
 
-Small plugins for Paper servers. Each does one job, costs next to nothing to run, and lets you switch off what you don't use.
+Small plugins for Paper and Folia servers. Each does one job, costs next to nothing to run, and lets you switch off what you don't use.
 
 | | Plugin | | |
 |---|---|---|---|
-| <img src="assets/xutilities-icon.png" width="40" alt=""> | **xUtilities** | Every command you need. None you don't. | [Docs](https://docs.xenastudios.co/xutilities/) · [Modrinth](https://modrinth.com/plugin/xutilities) |
-| <img src="assets/zchat-icon.png" width="40" alt=""> | **zChat** | Format your chat. Keep it clean. | [Docs](https://docs.xenastudios.co/zchat/) · [Modrinth](https://modrinth.com/plugin/zchat) |
-| <img src="assets/xlimbo-icon.png" width="40" alt=""> | **xLimbo** | Never drop a player again. | [Docs](https://docs.xenastudios.co/xlimbo/) · [Modrinth](https://modrinth.com/plugin/xlimbo) |
-| <img src="assets/xrewind-icon.png" width="40" alt=""> | **xRewind** | Every change, logged. Any of it, undone. | [Docs](https://docs.xenastudios.co/xrewind/) · [Modrinth](https://modrinth.com/plugin/xrewind) |
+| <img src="assets/xutilities-icon.png" width="40" alt=""> | **xUtilities** | Every command you need. None you don't. | [Docs](https://plugins.xenastudios.co/xutilities/) · [Modrinth](https://modrinth.com/plugin/xutilities) |
+| <img src="assets/zchat-icon.png" width="40" alt=""> | **zChat** | Format your chat. Keep it clean. | [Docs](https://plugins.xenastudios.co/zchat/) · [Modrinth](https://modrinth.com/plugin/zchat) |
+| <img src="assets/xteleport-icon.png" width="40" alt=""> | **xTeleport** | Every teleport your server needs. | [Docs](https://plugins.xenastudios.co/xteleport/) · [Download](https://plugins.xenastudios.co/xteleport/download/) |
+| <img src="assets/xstats-icon.png" width="40" alt=""> | **xStats** | Every player's stats, on your own website. | [Docs](https://plugins.xenastudios.co/xstats/) · [Download](https://plugins.xenastudios.co/xstats/download/) |
+| <img src="assets/xrewind-icon.png" width="40" alt=""> | **xRewind** | Every change, logged. Any of it, undone. | [Docs](https://plugins.xenastudios.co/xrewind/) · [Download](https://plugins.xenastudios.co/xrewind/download/) |
+| <img src="assets/xbans-icon.png" width="40" alt=""> | **xBans** | Bans, mutes and warnings. Nothing slips through. | [Docs](https://plugins.xenastudios.co/xbans/) · [Download](https://plugins.xenastudios.co/xbans/download/) |
+| <img src="assets/xplots-icon.png" width="40" alt=""> | **xPlots** | Rentable plots, set up in a minute. | [Docs](https://plugins.xenastudios.co/xplots/) · [Download](https://plugins.xenastudios.co/xplots/download/) |
+| <img src="assets/xvote-icon.png" width="40" alt=""> | **xVote** | Votes in. Rewards out. | [Docs](https://plugins.xenastudios.co/xvote/) · [Download](https://plugins.xenastudios.co/xvote/download/) |
+| <img src="assets/xmoney-icon.png" width="40" alt=""> | **xMoney** | The economy and Vault, in one plugin. | [Docs](https://plugins.xenastudios.co/xmoney/) · [Download](https://plugins.xenastudios.co/xmoney/download/) |
+| <img src="assets/xlimbo-icon.png" width="40" alt=""> | **xLimbo** | Never drop a player again. | [Docs](https://plugins.xenastudios.co/xlimbo/) · [Modrinth](https://modrinth.com/plugin/xlimbo) |
+| <img src="assets/xbackup-icon.png" width="40" alt=""> | **xBackup** | Backups that cost nothing. Restores you can trust. | [Docs](https://plugins.xenastudios.co/xbackup/) · [Download](https://plugins.xenastudios.co/xbackup/download/) |
 
-[Docs](https://docs.xenastudios.co) · [Modrinth](https://modrinth.com/organization/xena-studios) · [Source](https://github.com/xena-studios/plugins) · GPL-3.0-only
+[Docs](https://plugins.xenastudios.co) · [Modrinth](https://modrinth.com/organization/xena-studios) · [Source](https://github.com/xena-studios/plugins) · GPL-3.0-only
+
+---
+
+[xenastudios.co](https://xenastudios.co) · Logos and press kit at [brand.xenastudios.co](https://brand.xenastudios.co) · [contact@xenastudios.co](mailto:contact@xenastudios.co)
