@@ -12,7 +12,7 @@ The [Xena Studios](https://xenastudios.co) organisation profile, and the default
 | [`SECURITY.md`](SECURITY.md), [`CONTRIBUTING.md`](CONTRIBUTING.md), [`SUPPORT.md`](SUPPORT.md), [`CODE_OF_CONDUCT.md`](CODE_OF_CONDUCT.md) | Community files for every repo without its own |
 | [Issue forms](.github/ISSUE_TEMPLATE), [PR template](.github/pull_request_template.md) | The same, for issues and pull requests |
 
-## Making changes
+## Contributing
 
 - Changes go through pull requests, and the `check` job has to pass. It validates the Renovate configs, since a mistake there stops Renovate across the org.
 - Two more checks run on every pull request and every Monday, without blocking a merge: **links** (every link in every Markdown file and issue form still answers) and **profile** (the plugin table matches the brand catalog and Modrinth). On Monday, either failing opens an issue here, since nothing in this repo changed to cause it.
@@ -21,6 +21,17 @@ The [Xena Studios](https://xenastudios.co) organisation profile, and the default
 - The community files and issue forms are the defaults for every repo without its own, so they have to read right for each of them.
 - Every image is a brand file, linked from the brand repo's v1 releases through jsDelivr (`cdn.jsdelivr.net/gh/xena-studios/brand@1/...`), as [its guide](https://brand.xenastudios.co/files#linking-files) says: nothing is copied here, so a brand release updates the profile. Browse them at [brand.xenastudios.co](https://brand.xenastudios.co).
 - The plugin table is written by `node scripts/profile.ts` (Node 24, no install): add or rename a plugin in the brand catalog, release the brand, then run it. Everything else in the profile is written by hand, and follows [xenastudios.co](https://xenastudios.co).
+
+## README layout
+
+Every repo's README follows the same shape, so they read as one family:
+
+1. **The banner,** the repo's brand file linked from the brand repo's v1 releases (`https://cdn.jsdelivr.net/gh/xena-studios/brand@1/...`, not a copy), with alt text that starts "<Name> by Xena Studios." and says what it shows. A repo with no banner starts with `# <Name>` instead, and never with both.
+2. **The tagline,** in bold, on its own line: one short sentence, the same one the banner and the site use.
+3. **Badges,** for released products only: the compact row from [the brand's badge guide](https://brand.xenastudios.co/badges).
+4. **What it is,** in a paragraph that says it's by [Xena Studios](https://xenastudios.co) and links its site.
+5. **Status,** as a `> **Status:**` line, for anything not generally available.
+6. The repo's own sections, then, in this order and with these names: **`## Building`** (how to build and run it), **`## Contributing`** (who can, and where the guide is), **`## Licence`** (last, spelt the British way, as everything else is).
 
 ## Licence
 
