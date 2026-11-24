@@ -17,7 +17,7 @@ The [Xena Studios](https://xenastudios.co) organisation profile, and the default
 - Commits follow [Conventional Commits](https://www.conventionalcommits.org): `docs:`, `build:`, `ci:`.
 - `renovate-config.json` is extended by every repo, so check a change is safe for all of them.
 - The community files and issue forms are the defaults for every repo without its own, so they have to read right for each of them.
-- Images (the banner and everything in `profile/assets/`) are made in [xena-studios/brand](https://github.com/xena-studios/brand). Change them there, then copy them in. The profile copy follows [xenastudios.co](https://xenastudios.co).
+- Images (the banner and everything in `profile/assets/`) are made in [xena-studios/brand](https://github.com/xena-studios/brand) ([brand.xenastudios.co](https://brand.xenastudios.co)). Change them there, then copy them in: the plugin icons are `plugins/<id>/icon.png`, saved as `<id>-icon.png`. The profile copy follows [xenastudios.co](https://xenastudios.co).
 
 ## Licence
 
