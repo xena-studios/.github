@@ -1,0 +1,18 @@
+Copyright (c) 2026 Xena Studios. All rights reserved.
+
+This repository holds the Xena Studios organisation profile, its shared
+Renovate settings, the community files and issue forms every Xena Studios
+repository uses, and the scripts and workflows that keep them current. It is
+public so it can be read and so GitHub can use it. No licence is granted to
+copy, modify, distribute or otherwise reuse any part of it, in whole or in
+part, without prior written permission from Xena Studios, except as below.
+
+Third-party material
+  - CODE_OF_CONDUCT.md is the Contributor Covenant, version 2.1
+    (https://www.contributor-covenant.org), under the Creative Commons
+    Attribution 4.0 International licence (CC BY 4.0).
+  - The images the profile shows are the Xena Studios brand's, linked from
+    https://github.com/xena-studios/brand; its licence covers them:
+    https://github.com/xena-studios/brand/blob/main/LICENSE
+
+Contact: contact@xenastudios.co

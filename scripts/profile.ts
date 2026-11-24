@@ -38,6 +38,17 @@ async function onModrinth(id: string): Promise<boolean> {
 const catalog = await json<Catalog>(`${BRAND}/tokens/plugins-catalog.json`);
 if (catalog.version !== 1) throw new Error(`The brand catalog is version ${catalog.version}; this script reads version 1.`);
 
+// The catalog is our own, but it's still data from the network written into a README:
+// only take ids that are plain slugs, and names and taglines that can't break out of a
+// table cell or into HTML.
+const SLUG = /^[a-z][a-z0-9]{1,31}$/;
+const TEXT = /^[^|<>\n\r`[\]]{1,120}$/;
+for (const p of catalog.plugins) {
+  if (!SLUG.test(p.id) || !TEXT.test(p.name) || !TEXT.test(p.tagline) || !TEXT.test(p.category)) {
+    throw new Error(`The brand catalog has a plugin this script won't write into the profile: ${JSON.stringify(p).slice(0, 200)}`);
+  }
+}
+
 // In the catalog's category order, as the plugins README lists them.
 const plugins = catalog.categories.flatMap((c) => catalog.plugins.filter((p) => p.category === c && p.released));
 const rows = await Promise.all(plugins.map(async (p) => {
