@@ -6,9 +6,9 @@ contact_links:
   - name: Raptor
     url: https://github.com/xena-studios/raptor/issues/new/choose
     about: Bugs and ideas for Raptor go to its own repository. For help, see docs.raptorpanel.net.
-  - name: xUtilities, zChat, xLimbo or xRewind
+  - name: The plugins (xUtilities, zChat, xBans and the rest)
     url: https://github.com/xena-studios/plugins/issues/new/choose
-    about: Bugs and ideas for the plugins go to their repository.
+    about: Bugs and ideas for any of the plugins go to their repository. For help, see plugins.xenastudios.co.
   - name: Playing on MostWanted
     url: https://mostwantedmc.com/support
     about: Bugs, reports and store help for the server. Its repository is private.
@@ -16,5 +16,5 @@ contact_links:
     url: https://airfieldsmc.com/support
     about: Bugs, reports and store help for the server. Its repository is private.
   - name: Anything else
-    url: https://xenastudios.co/#contact
+    url: https://xenastudios.co/contact
     about: Questions, partnerships, press, or anything that isn't a bug or an idea.

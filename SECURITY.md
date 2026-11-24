@@ -24,11 +24,15 @@ Include the repo, the version or commit, steps to reproduce, and the impact.
 
 | Repo | Covers |
 |---|---|
-| [neoskript](https://github.com/xena-studios/neoskript) | The plugin, its compiler and runtime, and the CLI |
+| [neoskript](https://github.com/xena-studios/neoskript) | The plugin, its compiler and runtime, the CLI, and [neoskript.dev](https://neoskript.dev) |
+| [hallow](https://github.com/xena-studios/hallow) | The network: its services, proxies and panel |
+| [raptor-status](https://github.com/xena-studios/raptor-status) | [status.raptorpanel.net](https://status.raptorpanel.net) and its checks |
 | [website](https://github.com/xena-studios/website) | [xenastudios.co](https://xenastudios.co): its pages, headers and redirects |
-| [brand](https://github.com/xena-studios/brand) | The scripts that build and sync the brand assets |
-| [.github](https://github.com/xena-studios/.github) | The shared Renovate settings |
-| [mostwanted-pack](https://github.com/xena-studios/mostwanted-pack), [airfields-pack](https://github.com/xena-studios/airfields-pack) | The published resource packs |
+| [brand](https://github.com/xena-studios/brand) | The scripts that build and sync the brand assets, and [brand.xenastudios.co](https://brand.xenastudios.co) |
+| [.github](https://github.com/xena-studios/.github) | The shared Renovate settings and the org's workflows |
+| [mostwanted-pack](https://github.com/xena-studios/mostwanted-pack), [airfields-pack](https://github.com/xena-studios/airfields-pack), [orderup-pack](https://github.com/xena-studios/orderup-pack) | The published resource packs |
+
+Our forks ([Pumpkin](https://github.com/xena-studios/Pumpkin), [Vine](https://github.com/xena-studios/Vine), [pumpkin-java-multiversion](https://github.com/xena-studios/pumpkin-java-multiversion), [calagopus-panel](https://github.com/xena-studios/calagopus-panel)) follow their upstream projects: report a problem in their code to the upstream project, and one in only our changes to us.
 
 Out of scope: archived repos, problems in services we build on (GitHub, Cloudflare, Modrinth, Paper) unless we make them reachable, volume-only denial of service, scanner output without a demonstrated impact, and social engineering or physical attacks.
 
