@@ -13,6 +13,12 @@
       "matchManagers": ["github-actions"],
       "matchPackageNames": ["!actions/**", "!github/**"],
       "pinDigests": true
+    },
+    {
+      "description": "Node's major versions move across the org together, on purpose: a new major waits on the Dependency Dashboard until it's approved there, so no repo drifts onto one alone.",
+      "matchPackageNames": ["node", "@types/node"],
+      "matchUpdateTypes": ["major"],
+      "dependencyDashboardApproval": true
     }
   ]
 }

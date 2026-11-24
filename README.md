@@ -15,6 +15,7 @@ The [Xena Studios](https://xenastudios.co) organisation profile, and the default
 ## Contributing
 
 - Changes go through pull requests, and the `check` job has to pass. It validates the Renovate configs, since a mistake there stops Renovate across the org.
+- CodeQL scans the profile script and the workflows on every pull request, and blocks a merge on a high-severity finding, as in the brand repo.
 - Two more checks run on every pull request and every Monday, without blocking a merge: **links** (every link in every Markdown file and issue form still answers) and **profile** (the plugin table matches the brand catalog and Modrinth). On Monday, either failing opens an issue here, since nothing in this repo changed to cause it.
 - Commits follow [Conventional Commits](https://www.conventionalcommits.org): `docs:`, `build:`, `ci:`.
 - `renovate-config.json` is extended by every repo, so check a change is safe for all of them.
