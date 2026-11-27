@@ -28,6 +28,14 @@ A fast, modern drop-in replacement for Skript. Your `.sk` scripts run unchanged,
 
 [Website](https://neoskript.dev) · [Docs](https://neoskript.dev/docs) · [Modrinth](https://modrinth.com/plugin/neoskript) · [Source](https://github.com/xena-studios/neoskript) · GPL-3.0-only
 
+## Tools
+
+**Tools for running a Minecraft server.**
+
+Free web tools for server owners: gradient text in every format plugins read, a MiniMessage, legacy and JSON converter, and next MOTDs, startup flags, log analysis, server status and player lookup. Everything runs in your browser, and the link keeps your settings. In development.
+
+[Source](https://github.com/xena-studios/tools) · AGPL-3.0
+
 ## Servers
 
 Our own Minecraft servers, on Java and Bedrock. Both are in development.
