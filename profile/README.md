@@ -28,12 +28,7 @@ A fast, modern drop-in replacement for Skript. Your `.sk` scripts run unchanged,
 
 [Website](https://neoskript.dev) · [Docs](https://neoskript.dev/docs) · [Modrinth](https://modrinth.com/plugin/neoskript) · [Source](https://github.com/xena-studios/neoskript) · GPL-3.0-only
 
-## Xena Tools
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/xena-studios/brand@1/tools/logo-dark.png">
-  <img src="https://cdn.jsdelivr.net/gh/xena-studios/brand@1/tools/logo-light.png" alt="Xena Tools" height="48">
-</picture>
+## Tools
 
 **Tools for running a Minecraft server.**
 
