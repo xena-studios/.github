@@ -26,7 +26,7 @@ Include the repo, the version or commit, steps to reproduce, and the impact.
 |---|---|
 | [neoskript](https://github.com/xena-studios/neoskript) | The plugin, its compiler and runtime, the CLI, and [neoskript.dev](https://neoskript.dev) |
 | [hallow](https://github.com/xena-studios/hallow) | The network: its services, proxies and panel |
-| [tools](https://github.com/xena-studios/tools) | [tools.xenastudios.co](https://tools.xenastudios.co): its pages, its server functions (status and player lookups) and its headers |
+| [tools](https://github.com/xena-studios/tools) | tools.xenastudios.co: its pages, its server functions (status and player lookups) and its headers |
 | [raptor-status](https://github.com/xena-studios/raptor-status) | [status.raptorpanel.net](https://status.raptorpanel.net) and its checks |
 | [website](https://github.com/xena-studios/website) | [xenastudios.co](https://xenastudios.co): its pages, headers and redirects |
 | [brand](https://github.com/xena-studios/brand) | The scripts that build and sync the brand assets, and [brand.xenastudios.co](https://brand.xenastudios.co) |
