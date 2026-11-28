@@ -32,7 +32,7 @@ A fast, modern drop-in replacement for Skript. Your `.sk` scripts run unchanged,
 
 **Tools for running a Minecraft server.**
 
-Free web tools for server owners: gradient text in every format plugins read, a MiniMessage, legacy and JSON converter, and next MOTDs, startup flags, log analysis, server status and player lookup. Everything runs in your browser, and the link keeps your settings. The first tools are live, with more on the way.
+Free web tools for server owners: gradient text, a MiniMessage, legacy and JSON converter, an MOTD generator, server icons, startup flags, a log and crash analyzer, Java and Bedrock server status, and player lookup. Everything that can runs in your browser, and the link keeps your settings.
 
 [Website](https://tools.xenastudios.co) · [Source](https://github.com/xena-studios/tools) · AGPL-3.0
 
